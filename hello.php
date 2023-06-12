@@ -1,11 +1,12 @@
 <?php
-$prenom = "Lucas";
-// $greeting = "Hello {$prenom} !"
 
-if ($prenom == null) {
-    echo "Hello World !";
+if (empty($argv[1])) {
+    var_dump("Hello World !");
 } else {
-    echo "Hello $prenom !";
+    var_dump("Hello ".$argv[1]);
 }
+
+//var_dump(argv);
+//var_dump(argc);
 ?>
 
