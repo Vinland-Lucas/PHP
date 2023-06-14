@@ -5,7 +5,7 @@ $userNumber = null;
 $nbTentatives = 0;
 
 while ($computerNumber != $userNumber ) {
-    fscanf(STDIN, "%d", $userNumber); // --> récupère l'info saisie en entrée(STDIN) par l'utilisateur et stocke la dans la variable $userNumber
+    fscanf(STDIN, "%d", $userNumber); // --> récupère l'entrée(STDIN) courante saisie par l'utilisateur et la stock dans la variable $userNumber
     var_dump($userNumber); // --> cela affiche les informations contenues dans la variable $userNumber (valeur, type...)
     if($userNumber > $computerNumber) {
         var_dump("T'es au dessus chef redescends ! DESCENDS !");
