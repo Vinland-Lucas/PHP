@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: blue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header nav ul li a {
+    font-size: 1.5em;
+    color: white;
+}
+
+main {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#mahomes {
+    background-image: url("https://bloximages.newyork1.vip.townnews.com/independenttribune.com/content/tncms/assets/v3/editorial/d/ab/dabc44fc-c23b-557f-8331-29a33885a214/63d2e31a64a63.image.jpg?resize=380%2C500");
+}
+
+#burrow {
+    background-image: url("https://cdn.profootballrumors.com/files/2023/02/USATSI_19842659.jpg");
+}
+
+#lamar {
+    background-image: url("https://thespun.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTk2ODczMzE4OTIwODg5Nzgx/denver-broncos-v-baltimore-ravens.jpg");
+}
+
+#hurts {
+    background-image: url("https://img.texasmonthly.com/2023/02/jalen-hurts-texas-football-roots.jpg?auto=compress&crop=faces&fit=crop&fm=jpg&h=1400&ixlib=php-3.3.1&q=45&w=1400");
+}
+
+#fields {
+    background-image: url("https://dairylandexpress.com/wp-content/uploads/imagn-images/2018/08/19646277-scaled.jpeg");
+}
+
+#trey_lance {
+    background-image: url("https://static.foxnews.com/foxnews.com/content/uploads/2022/09/trey-lance-vs-bears.jpg");
+}
+
+.img_settings {
+    width: 33vw;
+    background-position: top;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.text_settings {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
