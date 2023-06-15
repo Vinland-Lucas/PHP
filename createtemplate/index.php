@@ -22,9 +22,9 @@
             include 'about.php';
         }
 
-    // Si la variable/paramètre "page" n'existe pas OU qu'elle n'a pas pour valeur '' OU 'home' OU 'about' alors affiche "404 not found".
-        if (!isset($_GET['page']) || ($_GET['page'] != '') || ($_GET['page'] != 'home') || ($_GET['page'] != 'about')) {
-            echo "404 not found";
+    // Si la variable/paramètre "page" n'existe pas, n'est pas définie, assignée alors affiche la page "home.php"
+        if (!isset($_GET['page'])) {
+            include 'home.php';
         }
     ?>
 
