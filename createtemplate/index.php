@@ -1,3 +1,5 @@
+<?php include 'pdo.php' ?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -20,6 +22,10 @@
 
         if (isset($_GET['page']) && ($_GET['page'] == 'about')) {
             include 'about.php';
+        }
+
+        if (isset($_GET['page']) && ($_GET['page'] == 'fuel')) {
+            include 'fuel.php';
         }
 
     // Si la variable/paramètre "page" n'existe pas, n'est pas définie, assignée alors affiche la page "home.php"
